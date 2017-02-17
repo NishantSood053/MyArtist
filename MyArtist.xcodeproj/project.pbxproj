@@ -12,6 +12,7 @@
 		4A1CA11A1E57A5040003C844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1CA1181E57A5040003C844 /* Main.storyboard */; };
 		4A1CA11C1E57A5040003C844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1CA11B1E57A5040003C844 /* Assets.xcassets */; };
 		4A1CA11F1E57A5040003C844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1CA11D1E57A5040003C844 /* LaunchScreen.storyboard */; };
+		4A1CA12D1E57AC570003C844 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CA12C1E57AC570003C844 /* VideoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		4A1CA11B1E57A5040003C844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A1CA11E1E57A5040003C844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A1CA1201E57A5040003C844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A1CA12A1E57AB290003C844 /* COLDPLAY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = COLDPLAY.ttf; sourceTree = "<group>"; };
+		4A1CA12C1E57AC570003C844 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +57,9 @@
 		4A1CA1131E57A5040003C844 /* MyArtist */ = {
 			isa = PBXGroup;
 			children = (
+				4A1CA12B1E57AB380003C844 /* Files */,
 				4A1CA1261E57A5D40003C844 /* Model */,
+				4A1CA1271E57A5DB0003C844 /* View */,
 				4A1CA1281E57A5E10003C844 /* Controller */,
 				4A1CA1141E57A5040003C844 /* AppDelegate.swift */,
 				4A1CA1181E57A5040003C844 /* Main.storyboard */,
@@ -68,7 +73,6 @@
 		4A1CA1261E57A5D40003C844 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4A1CA1271E57A5DB0003C844 /* View */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -84,8 +88,17 @@
 			isa = PBXGroup;
 			children = (
 				4A1CA1161E57A5040003C844 /* MainVC.swift */,
+				4A1CA12C1E57AC570003C844 /* VideoVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		4A1CA12B1E57AB380003C844 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CA12A1E57AB290003C844 /* COLDPLAY.ttf */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1CA12D1E57AC570003C844 /* VideoVC.swift in Sources */,
 				4A1CA1171E57A5040003C844 /* MainVC.swift in Sources */,
 				4A1CA1151E57A5040003C844 /* AppDelegate.swift in Sources */,
 			);
