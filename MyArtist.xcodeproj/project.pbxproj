@@ -54,14 +54,38 @@
 		4A1CA1131E57A5040003C844 /* MyArtist */ = {
 			isa = PBXGroup;
 			children = (
+				4A1CA1261E57A5D40003C844 /* Model */,
+				4A1CA1281E57A5E10003C844 /* Controller */,
 				4A1CA1141E57A5040003C844 /* AppDelegate.swift */,
-				4A1CA1161E57A5040003C844 /* MainVC.swift */,
 				4A1CA1181E57A5040003C844 /* Main.storyboard */,
 				4A1CA11B1E57A5040003C844 /* Assets.xcassets */,
 				4A1CA11D1E57A5040003C844 /* LaunchScreen.storyboard */,
 				4A1CA1201E57A5040003C844 /* Info.plist */,
 			);
 			path = MyArtist;
+			sourceTree = "<group>";
+		};
+		4A1CA1261E57A5D40003C844 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CA1271E57A5DB0003C844 /* View */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4A1CA1271E57A5DB0003C844 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4A1CA1281E57A5E10003C844 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CA1161E57A5040003C844 /* MainVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
