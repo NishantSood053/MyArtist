@@ -82,6 +82,23 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         return artistData.count
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedObj = artistData[indexPath.row]
+        performSegue(withIdentifier: "VideoVC", sender: selectedObj)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "VideoVC"{
+        
+            if let destination = segue.destination as? VideoVC{
+                if let artistData = sender as? MyArtistModel{
+                    destination.artistData = artistData
+                }
+            }
+        }
+    }
 
 
 }

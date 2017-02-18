@@ -10,10 +10,27 @@ import UIKit
 
 class VideoVC: UIViewController {
 
+    @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var titleLbl: UILabel!
+    
+    private var _artistData : MyArtistModel!
+    
+    var artistData: MyArtistModel{
+    
+        get{
+            return _artistData;
+        }set{
+            _artistData = newValue
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        titleLbl.text = artistData.videoTitle
+        webView.loadHTMLString(artistData.videoURL, baseURL: nil)
+        
     }
 
     override func didReceiveMemoryWarning() {
