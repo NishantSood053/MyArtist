@@ -13,6 +13,8 @@
 		4A1CA11C1E57A5040003C844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1CA11B1E57A5040003C844 /* Assets.xcassets */; };
 		4A1CA11F1E57A5040003C844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1CA11D1E57A5040003C844 /* LaunchScreen.storyboard */; };
 		4A1CA12D1E57AC570003C844 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CA12C1E57AC570003C844 /* VideoVC.swift */; };
+		4A1CA12F1E57ADB10003C844 /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CA12E1E57ADB10003C844 /* ViewCell.swift */; };
+		4A1CA1311E57AEBA0003C844 /* MyArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CA1301E57AEBA0003C844 /* MyArtistModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		4A1CA1201E57A5040003C844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A1CA12A1E57AB290003C844 /* COLDPLAY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = COLDPLAY.ttf; sourceTree = "<group>"; };
 		4A1CA12C1E57AC570003C844 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		4A1CA12E1E57ADB10003C844 /* ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
+		4A1CA1301E57AEBA0003C844 /* MyArtistModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyArtistModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 		4A1CA1261E57A5D40003C844 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4A1CA1301E57AEBA0003C844 /* MyArtistModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -80,6 +85,7 @@
 		4A1CA1271E57A5DB0003C844 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4A1CA12E1E57ADB10003C844 /* ViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -174,7 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1CA12F1E57ADB10003C844 /* ViewCell.swift in Sources */,
 				4A1CA12D1E57AC570003C844 /* VideoVC.swift in Sources */,
+				4A1CA1311E57AEBA0003C844 /* MyArtistModel.swift in Sources */,
 				4A1CA1171E57A5040003C844 /* MainVC.swift in Sources */,
 				4A1CA1151E57A5040003C844 /* AppDelegate.swift in Sources */,
 			);
